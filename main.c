@@ -48,6 +48,7 @@ int main(void)
  *
  * Return: Always 0
  */
+int main()
 {
 	_printf("%b\n", 98);
 	return (0);
