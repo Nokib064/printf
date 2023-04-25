@@ -58,8 +58,8 @@ int handle_write_char(char c, char buffer[],
 
 		else
 
-			return (write(1, &buffer[BUFF_SIZE - i - 1], width - 1)) +
-	}
+			return (write(1, &buffer[BUFF_SIZE - i - 1], width - 1));
+	};
 	return (write(1, &buffer[0], 1));
 }
 /************************* WRITE NUMBER *************************/
